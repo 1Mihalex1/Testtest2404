@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Галерея</title>
+  <style>
+    body {
+      background-color: rgb(158, 250, 166); 
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    nav {
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border: 2px solid #000;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Нав -->
+  <nav>
+    <a href="../index.html">Головна</a>
+    <a href="contact.html">Контакти</a>
+    <a href="gallery.html">Галерея</a>
+  </nav>
+
+  <h1>Галерея</h1>
+
+  <!--Галерея -->
+  <div class="gallery">
+    <img src="../photo/qa_testing1ru.jpg" alt="Фото 1">
+    <img src="../photo/Skills.jpg" alt="Фото 2">
+    <img src="../photo/qaa.jpg" alt="Фото 3">
+  </div>
+
+</body>
+</html>
